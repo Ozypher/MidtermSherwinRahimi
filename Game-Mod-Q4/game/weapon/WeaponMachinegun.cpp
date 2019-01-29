@@ -273,7 +273,7 @@ stateResult_t rvWeaponMachinegun::State_Reload ( const stateParms_t& parms ) {
 			}
 			
 			SetStatus ( WP_RELOAD );
-			PlayAnim ( ANIMCHANNEL_ALL, "reload", parms.blendFrames );
+			//PlayAnim ( ANIMCHANNEL_ALL, "reload", parms.blendFrames );
 			return SRESULT_STAGE ( STAGE_WAIT );
 			
 		case STAGE_WAIT:
